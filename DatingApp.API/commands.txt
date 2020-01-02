@@ -1,0 +1,16 @@
+dotnet run
+dotnet watch run
+
+dotnet tool install --global dotnet-ef --version 3.0.1
+
+dotnet ef -h
+
+dotnet ef migrations add InitialCreate | dotnet ef migrations remove
+
+dotnet ef database update | dotnet ef database drop
+
+npm install -g @angular/cli
+
+ng new DatingApp-SPA
+
+npm install bootstrap font-awesome
